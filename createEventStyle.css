@@ -1,0 +1,67 @@
+body{
+	
+	font-family: Helvetica
+}
+h1, h2{
+	margin: 0:
+}
+m{
+	text-decoration: none;
+	background-color: #cbe8ba;
+	color: #606060;
+
+}
+#container{
+	background-color: white;
+	width: 800px;
+	height: 600px;
+	margin: auto;
+	
+}
+
+#toolBar{
+	background-color: #4c7a34;
+	color: white;
+	height:39 px;
+	float: top;
+
+}
+#header{
+	background-color: #cbe8ba;
+	color: #444444;
+	height: 49px;
+	text-align: left;
+}
+#menuTitle{
+	background-color: #dfedd6;
+	color: #444444;
+	text-align: left;
+}
+#title{
+	background-color: #dfedd6;
+	color: #444444;
+
+}
+#content{
+	text-align: left;
+}
+#menu{
+	width: 209px;
+	float:left;
+	background-color: #e6e6e6;
+}
+#menu ul{
+	list-style-type: none;
+	padding-left: 15px 
+}
+#menu .selected{
+	background-color: #629c44;
+	color: white;
+}
+#main{
+	width: 591px;
+	float: right;
+}
+#footer{
+	clear: both;
+}

@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>Event Planner</title>
+		<link rel="stylesheet" type="text/css" href="createEventStyle.css"/>
+	
+	</head>
+	<body>
+		<div id="container">
+			<div id="toolBar">
+				<h2>insert tool bar here</h2>
+			</div>
+		
+			<div id="header">
+				<h1>Event Planner</h1>
+			</div>
+			
+			<div id="menu">
+			<div id="menuTitle">
+				<h2>Menu</h2>
+			</div>
+			<ul>
+				<li><m class="selected" href="">Create Event</li>
+				<li><m href="">Manage Events</li>
+			</ul>
+			</div>
+			
+			<div id="main">
+				<div id="title">
+					<h2>Create a new event</h2>
+				</div>
+				<div id="content">
+					<form create="/create_event.php">
+					
+						Event Name 
+						<input type="text" name="EventName" value="Name of the event"><br><br>
+						
+						Organizer
+						<input type="text" name="Organizer" value="Name of Oraganizer"><br><br>
+						
+						Event Type
+						<select>
+							<option value="food">Food</option>
+							<option value="academic">Academic</option>
+							<option value="clubs">Clubs</option>
+							<option value="trip">Trip</option>
+						</select><br><br>
+						
+						location<br><br>
+						
+						Event Description
+						<textarea rows="4" cols="50">
+						Input event description here
+						</textarea><br><br>
+						
+						<button type="button" onclick="alert('The form is submitted')">Submit</button>
+						
+					</form>
+				</div>
+			</div>
+			
+			<div id="footer">
+				last edit: 15/2/2018
+			</div>
+		</div>
+	</body>
+</html>
